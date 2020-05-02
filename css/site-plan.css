@@ -30,11 +30,12 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--heading-font);
+    font-family: Roboto', sans-serif;
     color:
 }
 
 header {
+    font-family: 'Roboto', sans-serif;
     padding: 1em;
     text-align: center;
     color: var(--accent2-color);
@@ -46,7 +47,7 @@ header>h1 {
 }
 
 p {
-    font-family: var(--paragraph-font);
+    font-family: Roboto', sans-serif;;
     color: ;
     padding: 1em
 }
