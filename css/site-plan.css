@@ -31,7 +31,7 @@ h4,
 h5,
 h6 {
     font-family: 'Roboto', sans-serif;
-color:
+    color: rgb(57, 110, 148)
 }
 
 header {
@@ -39,17 +39,16 @@ header {
     padding: 1em;
     text-align: center;
     color: var(--accent2-color);
-    background: color ;
+    background: color rgb(214, 57, 57);
 }
 
 header>h1 {
-    color:gray
+    color: rgb(57, 110, 148)
 }
 
 p {
-    font-family: 'Roboto', sans-serif;;
-color:;
-    padding: 1em
+    font-family: 'Roboto', sans-serif;
+    color: black padding: 1em
 }
 
 .colors {
