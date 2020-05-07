@@ -48,7 +48,7 @@ header>h1 {
 
 p {
     font-family: 'Roboto', sans-serif;
-    color: black padding: 1em
+    color: black padding, 1em
 }
 
 .colors {
@@ -84,7 +84,7 @@ p {
 }
 
 nav {
-    background-color:rgb(0, 0, 0);
+    background-color:rgb(42, 116, 158);
     line-height: 3em;
     text-align: center;
     font-size: 1.2em
