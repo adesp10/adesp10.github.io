@@ -9,7 +9,7 @@ main,
 footer {
     max-width: 960px;
     margin: 0 auto;
-    color: white;
+    color: black;
 }
 
 header {
@@ -24,16 +24,20 @@ main section p {
     padding: 5px;
     background-color: rgb(58, 139, 167);
 }
-
-.topnav {
+nav {
+    color: white;
+}
+    
+topnav {
     float: right;
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
+    list-style-type: none;
     overflow: hidden;
 }
 
 footer {
-    background-color: lightslategray;
+    background-color: gray;
     color: white;
-        }
+ }
