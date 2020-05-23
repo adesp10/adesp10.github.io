@@ -72,9 +72,14 @@ body {
 }
 
 .home {
-    float: right;
+    display: flex;
     padding: 20px;
     margin: 20px;
+    width: 600px;
+    height: auto;
+}
+.home img {
+    width: 600px;
 }
 
 .active {
@@ -87,19 +92,24 @@ body {
 
 .away {
     display: flex;
+    border: solid 6px;
 }
 
 .reception {
-    float: left;
+    display: flex;
     border: solid 6px;
     padding: 15px;
     margin: 6px;
+    
 }
 
 .info {
     float: right;
     margin: 6px;
     padding: 6px;
+}
+.search {
+    text-align: center;
 }
 
 h2,
