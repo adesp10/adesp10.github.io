@@ -1,48 +1,139 @@
-body {
-    font-size: 16px;
-    background-color: beige;
-    text-align: center;
-}
-
 header,
 main,
 footer {
     max-width: 960px;
     margin: 0 auto;
-    color: black;
+    color: rgb(253, 253, 253);
 }
 
 header {
-    background-color: rgb(58, 139, 167); 
-    border: solid 5px;
-    color: black;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #035981;
+    height: 100px;
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+    margin-left: 25px;
+    width: 90px;
+    border: solid;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-family: "Courgette";
+    font: 1.1rem;
+}
+
+.home {
+    height: 500px;
+    width: auto;
+    border: solid 6px;
+}
+
+nav {
+    line-height: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 1em;
+    justify-content: space-evenly;
+}
+
+nav a:hover {
+    color: #04D9D9;
 }
 
 main section p {
     margin: 5px;
     border: 1px solid #bbb;
-    padding: 5px;
-    background-color: rgb(58, 139, 167);
+    padding: 20px;
+    background-color: #049DBF;
 }
- 
-topnav {
-    float: right;
-    text-align: center;
-    padding: 10px 16px;
-    text-decoration: none;
-    list-style-type: none;
-    overflow: hidden;
-}
-nav ul{
-    list-style: none;
+
+body {
+    font-size: 16px;
+    background-color: beige;
     padding: 0;
+    margin: 0;
 }
-h2{
-    font-size: 2em;
-    color: rgb(34, 31, 31)
+
+.home {
+    float: right;
+    padding: 20px;
+    margin: 20px;
+}
+
+.active {
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+    padding: 1.1em;
+}
+
+.away {
+    display: flex;
+}
+
+.reception {
+    float: left;
+    border: solid 6px;
+    padding: 15px;
+    margin: 6px;
+}
+
+.info {
+    float: right;
+    margin: 6px;
+    padding: 6px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #049DBF;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p.extra {
+    text-align: center;
 }
 
 footer {
-    background-color: gray;
+    background-color: #035981;
     color: white;
- }
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact img {
+    width: 25px;
+    height: auto;
+}
+
+.social img {
+    width: 50px;
+    height: auto;
+}
+
+.social {
+    text-align: right;
+}
