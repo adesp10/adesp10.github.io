@@ -13,7 +13,7 @@ body {
     justify-items: center;
     grid-gap: 20px;
   }
-  .content1, content2, content3 {
+  .content1, content2, content3, content 4, content 5, content 6 {
     width: 600px;
   }
   
@@ -48,9 +48,107 @@ body {
 
   .red2 {
       position: absolute;
-      top: 5px;
-      left: 5px;
-      width: 100px;
-      height: 100px;
+      top: 55px;
+      left: 55px;
+      width: 80px;
+      height: 80px;
       background-color: red;
+      z-index: 1;
   }
+    .green2 {
+      position: absolute;
+      top: 75px;
+      left: 75px;
+      background-color: green;
+      height: 80px;
+      width: 80px;
+      z-index: 5;
+    }
+    .gold2 {
+      position: absolute;
+      background-color: gold;
+      height: 80px;
+      width: 80px;
+      z-index: 10;
+      top: 105px;
+      left: 105px;
+    }
+    .blue2 {
+      position: absolute;
+      top: 125px;
+      left: 125px;
+      background-color: blue;
+      height: 80px;
+      width: 80px;
+      z-index: 20;
+    }
+    .content3 {
+      position: relative;
+      display: grid;
+      grid-template-columns: 2em;
+      grid-template-rows: 3em;
+    
+    }
+      .red3 {
+      position: relative;
+      height: 100px;
+      width: 400px;
+      background-color: red;
+
+    }
+      .green3 {
+      height: 200px;
+      width: 200px;
+      background-color: green;
+      margin-right: 50px;
+
+    }
+      .gold3 {
+        position: flex;
+        height: 200px;
+        width: 200px;
+        background-color: gold;
+
+    }
+      .blue3 {
+      height: 100px;
+      width: 400px;
+      background-color: blue;
+
+    }
+    .red4 {
+
+    }
+    .green4 {
+
+    }
+    .gold4 {
+
+    }
+    .blue4 {
+
+    }
+    .red5 {
+
+    }
+    .green5 {
+
+    }
+    .gold5 {
+
+    }
+    .blue5 {
+
+    }
+    .red6 {
+
+    }
+    .green6 {
+
+    }
+    .gold6 {
+
+    }
+    .blue6 {
+
+    }
