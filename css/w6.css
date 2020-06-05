@@ -135,7 +135,7 @@ body {
 .content5 {
   position: relative;
   width: 600px;
-  height: 400px;
+  height: 550px !important;
 }
 
 .red5 {
