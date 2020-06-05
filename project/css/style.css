@@ -49,7 +49,7 @@ nav a:hover {
 
 main section p {
     margin: 5px;
-    border: 1px solid #bbb;
+    border: 5px solid #bbb;
     padding: 20px;
     background-color: #049DBF;
 }
@@ -75,7 +75,6 @@ p.cta {
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
-    position: center;
 }
 
 button {
@@ -90,6 +89,11 @@ button {
     color: white;
 }
 
+button a:hover {
+    color: #2175BF;
+}
+
+
 body {
     font-size: 16px;
     background-color: beige;
@@ -99,9 +103,15 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
-    max-width: 960px;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        display: block;
+    }
 }
 
 .home {
@@ -140,17 +150,18 @@ body {
 .away {
     grid-row-start: 1;
     grid-column-start: 1;
+    border: solid 5px;
+}
+
+.search {
+    border: 5px solid;
 }
 
 .info {
     float: right;
     margin: 6px;
     padding: 6px;
-}
-
-.search {
-    grid-row: 3/4;
-    text-align: center
+    border: solid 5px;
 }
 
 h2,
@@ -168,9 +179,9 @@ p.extra {
 }
 
 footer {
-    background-color: #035981;
+    background-color: #58C1D0;
     color: white;
-    padding: 15px;
+    padding: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -182,11 +193,6 @@ footer {
     color: beige;
 }
 
-.contact img {
-    width: 25px;
-    height: auto;
-}
-
 .social img {
     width: 50px;
     height: auto;
@@ -196,10 +202,4 @@ a.facebook,
 a.instagram,
 a.twitter {
     padding: .5em;
-}
-
-.social {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
