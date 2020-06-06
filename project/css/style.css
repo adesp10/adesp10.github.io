@@ -97,14 +97,13 @@ button a:hover {
 body {
     font-size: 16px;
     background-color: beige;
-    padding: 0;
+    padding: 10px;
     margin: 0;
 }
 
 .container {
     display: grid;
     grid-template-columns: 2fr 2fr;
-    grid-template-rows: auto;
     grid-gap: 20px;
 }
 
@@ -137,6 +136,9 @@ body {
     padding: 10px;
     box-shadow: 5px 5px 5px #999;
 }
+.reception {
+    
+}
 
 .active {
     color: white;
@@ -155,9 +157,10 @@ body {
 
 .search {
     border: 5px solid;
+    grid-column-end: span;
 }
 
-.info {
+p.info {
     margin: 6px;
     padding: 6px;
     border: solid 5px;
