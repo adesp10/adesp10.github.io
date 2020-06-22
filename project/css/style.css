@@ -68,6 +68,16 @@ p.cta {
     background-size: cover;
     position: relative;
 }
+.hero-image-apia {
+    position: relative;
+    width: 960px;
+    padding-left: 90px;
+}
+.apialabel {
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+}
 
 .hero-text {
     text-align: center;
