@@ -177,7 +177,7 @@ h6 {
 .amen-container {
     scroll-padding-top: 20px;
     background-color: #2175BF;
-    display: -ms-inline-grid;
+    display: grid;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px;
 }
