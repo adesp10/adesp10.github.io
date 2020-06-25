@@ -168,6 +168,33 @@ h6 {
     text-decoration: underline;
     text-align: center;
 }
+.amenities {
+    color: white;
+    display: grid;
+}
+.amen-container {
+    scroll-padding-top: 20px;
+    background-color: #2175BF;
+    display: -ms-inline-grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+}
+.item {
+
+}
+.spotlight {
+    background-color: #2175bf;
+    padding: 1em;
+}
+.facts {
+    background-color: #2175bf;
+    padding: 1em;
+}
+.mile {
+    display: block;
+    background-color: #2175BF;
+    padding: 1em;
+}
 
 footer {
     background-color: #58C1D0;
