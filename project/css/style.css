@@ -170,20 +170,16 @@ h6 {
     text-decoration: underline;
     text-align: center;
 }
-.amenities {
-    color: white;
-    display: grid;
-}
-.amen-container {
-    scroll-padding-top: 20px;
-    background-color: #2175BF;
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 100px 100px;
-}
-.item {
 
+.amenities {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 960px;
+    background-color: #2175BF;
+    color: white;
 }
+
 .spotlight {
     background-color: #2175bf;
     padding: 1em;
@@ -201,9 +197,9 @@ h6 {
 footer {
     background-color: #58C1D0;
     color: white;
-    padding: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 10px 10px;
 }
 
 .legal {
