@@ -227,3 +227,18 @@ a.instagram,
 a.twitter {
     padding: .5em;
 }
+
+form { 
+    background-color: #2175BF;
+    padding: 1em;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      } 

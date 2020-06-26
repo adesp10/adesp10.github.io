@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Reservations | Temple Inn & Suites | 215-529-9999</title>
-  <meta name="description" content="This is the Reserations Page for Temple Inn & Suites, plan your dream vacation and book today!">
+  <meta name="description"
+    content="This is the Reserations Page for Temple Inn & Suites, plan your dream vacation and book today!">
   <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Open+Sans&display=swap"
     rel="stylesheet" />
   <link href="css/style.css" rel="stylesheet">
@@ -31,7 +32,32 @@
     <div class="hero">
       <img src="images/heroreserve.jpg" alt="Beautiful Hotel with Water">
     </div>
-    
+    <container class="form">
+      <div>
+        <form>
+          First name: <input type="text" name="first_name" />
+          <br>
+          Last name: <input type="text" name="last_name" />
+          <br>
+          Destination: <input type="text" place="destination" />
+          <br>
+          <br>
+          Check-In Date:<label for="start"></label>
+          <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+          <br>
+          <br>
+          Check-Out Date: <label for="start"></label>
+          <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+          <br>
+          <br>
+          <input type="checkbox" name="main" value="on"> Request Main-Floor
+          <input type="checkbox" name="upper" value="on"> Request Upper-Floor
+          <br>
+          <br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </container>
 
   </main>
   <footer>
