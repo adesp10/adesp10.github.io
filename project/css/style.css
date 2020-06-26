@@ -170,14 +170,22 @@ h6 {
     text-decoration: underline;
     text-align: center;
 }
-
+ 
 .amenities {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     max-width: 960px;
-    background-color: #2175BF;
+    background-color: #049DBF;
     color: white;
+    padding: 1em;
+}
+
+.amen {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 960px;
+    grid-gap: 25px;
 }
 
 .spotlight {
