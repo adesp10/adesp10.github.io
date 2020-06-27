@@ -155,7 +155,7 @@ body {
 
 .info {
     margin: 6px;
-    padding: 6px;
+    padding: 20px;
     border: solid 5px;
 }
 
@@ -183,6 +183,16 @@ h6 {
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 960px;
     grid-gap: 20px;
+}
+.search-box {
+    position: relative; 
+    background-color: #2175bf;
+    width: 500;
+    margin: 20px;
+    padding: 20px;
+}
+.search-txt {
+    background-color: #05d5ec;
 }
 
 .spotlight {
