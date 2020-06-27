@@ -9,7 +9,7 @@ footer {
 header {
     display: flex;
     align-items: center;
-    background-color: #58C1D0;
+    background-color: #026BA2;
 }
 
 header img {
@@ -47,14 +47,14 @@ nav ul {
 
 
 nav a:hover {
-    color: #2175BF;
+    color: #F29849;
 }
 
 main section p {
     margin: 5px;
     border: 5px solid #bbb;
     padding: 20px;
-    background-color: #049DBF;
+    background-color: #0378A6;
 }
 
 p.cta {
@@ -76,7 +76,6 @@ p.cta {
     width: 960px;
 }
 .apia {
-    color: black;
     text-align: center;
     font-size: 2rem;
 }
@@ -165,7 +164,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #049DBF;
+    color: #0378A6;
     text-decoration: underline;
     text-align: center;
 }
@@ -175,7 +174,7 @@ h6 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     max-width: 960px;
-    background-color: #049DBF;
+    background-color: #026BA2;
     color: white;
     padding: 30px;
 }
@@ -203,7 +202,7 @@ h6 {
 }
 
 footer {
-    background-color: #58C1D0;
+    background-color: #026BA2;
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -229,7 +228,7 @@ a.twitter {
 }
 
 form { 
-    background-color: #2175BF;
+    background-color: #0378A6;
     padding: 1em;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
