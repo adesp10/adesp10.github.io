@@ -172,7 +172,6 @@ h6 {
 .amenities {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
     max-width: 960px;
     background-color: #026BA2;
     color: white;
@@ -183,7 +182,7 @@ h6 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 960px;
-    grid-gap: 25px;
+    grid-gap: 20px;
 }
 
 .spotlight {
@@ -241,6 +240,3 @@ form {
         margin: 8px 0;
         box-sizing: border-box;
       } 
-#submit {
-        font-weight: 2rem;
-      }
