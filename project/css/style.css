@@ -241,3 +241,6 @@ form {
         margin: 8px 0;
         box-sizing: border-box;
       } 
+#submit {
+        font-weight: 2rem;
+      }
