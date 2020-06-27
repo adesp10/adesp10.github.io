@@ -173,11 +173,11 @@ h6 {
 .amenities {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     max-width: 960px;
     background-color: #049DBF;
     color: white;
-    padding: 1em;
+    padding: 1em 50px;
 }
 
 .amen {
