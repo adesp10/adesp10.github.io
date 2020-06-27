@@ -101,10 +101,9 @@ button {
     color: white;
 }
 
-button a:hover {
+button hover {
     color: #2175BF;
 }
-
 
 body {
     font-size: 16px;
@@ -192,6 +191,7 @@ h6 {
     background-color: #2175bf;
     padding: 1em;
 }
+
 .facts {
     background-color: #2175bf;
     padding: 1em;
