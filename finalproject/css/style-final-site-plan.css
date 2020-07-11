@@ -102,7 +102,32 @@ input[type=text], select, textarea {
   }
   
   .container {
-    border-radius: 5px;
     background-color: #87D8E8;
     padding: 20px;
   }
+  /*Footer*/
+  footer {
+    background-color: #87D8E8;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 10px;
+}
+
+.legal {
+    grid-column: 1/3;
+    margin-top: 1rem;
+    text-align: center;
+    color: rgb(100, 97, 97);
+}
+
+.social img {
+    width: 50px;
+    height: auto;
+}
+
+a.facebook,
+a.instagram,
+a.twitter {
+    padding: .5em;
+} 
