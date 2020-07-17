@@ -166,15 +166,17 @@ textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical
+    font-family: 'Raleway', sans-serif;
 }
 
 input[type=sendmessage] {
     background-color: #DBAA38;
-    color: white;
+    color: black;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: 'Raleway', sans-serif;
 }
 
 input[type=sendmessage]:hover {
@@ -185,6 +187,7 @@ input[type=sendmessage]:hover {
     background-color: #87D8E8;
     padding: 20px;
     border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
 }
 
 /*Footer*/
