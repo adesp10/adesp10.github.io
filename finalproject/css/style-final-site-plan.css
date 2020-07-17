@@ -5,7 +5,7 @@ footer {
     border-radius: 3px;
     padding-top: 7px;
     padding-bottom: 5px;
-    margin: 0;
+    margin: auto;
 }
 footer {
     font-family: 'Raleway', sans-serif;
@@ -43,7 +43,7 @@ img {
 nav a {
     text-align: center;
     padding: 8px;
-    color: whitesmoke;
+    color: black;
     text-decoration: none;
     display: block;
     max-width: 100%;
@@ -66,7 +66,7 @@ nav a:hover {
 }
 
 .menu {
-    background-color: #1B7688;
+    background-color: #87D8E8;
     border-radius: 3px;
 }
 
@@ -75,7 +75,7 @@ h3,
 h4 h5,
 h6 {
     font-family: 'Raleway', sans-serif;
-    color: #060311;
+    color: black;
 }
 
 p {
