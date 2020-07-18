@@ -133,15 +133,6 @@ img {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#staples {
-    width: 
-}
-#print {
-    width: ;
-}
-#shop {
-    width: 
-}
 
 .time {
     text-align: right;
@@ -166,7 +157,7 @@ textarea {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical
+    resize: vertical;
     font-family: 'Raleway', sans-serif;
 }
 
