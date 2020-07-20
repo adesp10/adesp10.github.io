@@ -95,6 +95,8 @@ p {
     margin-right: 25px;
     max-width: 960px;
 }
+
+/* Print & Share Page Wrapper*/
 .wrappers {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
