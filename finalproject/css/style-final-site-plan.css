@@ -59,10 +59,12 @@ nav ul {
     justify-content: space-evenly;
     font-size: 2.5rem;
     font-family: 'Shadows Into Light', cursive;
+    margin-top: -5px;
+    background-color: #4AC2DB;
 }
 
 nav a:hover {
-    color: #DBAA38;
+    color: rgb(235, 235, 228);
 }
 
 .menu {
