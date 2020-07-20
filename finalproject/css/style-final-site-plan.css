@@ -93,6 +93,13 @@ p {
     margin-right: 25px;
     max-width: 960px;
 }
+.wrappers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin-bottom: 50px;
+
+}
 img {
     max-width: 100%;
 }
